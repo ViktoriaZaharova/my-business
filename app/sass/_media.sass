@@ -1,0 +1,283 @@
+@import "vars"
+
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1800px)
+  .decor14
+    left: 100px
+    max-width: 140px
+
+  .decor12
+    right: 20px
+
+  .decor13
+    left: 30px
+
+@media only screen and (max-width: 1200px)
+  .main-img
+    width: 500px
+    min-width: 500px
+    height: 500px
+    margin: 0 auto
+
+  .speakers-wrapper
+    padding: 0
+
+  .events
+    .decor
+      display: none
+
+  .decor15
+    right: 70px
+
+  .partner
+    padding: 80px 0
+
+  .main .main-img
+    width: 400px
+    height: 400px
+    min-width: auto
+    margin: 0 auto
+
+  footer
+    .box-contacts
+      padding: 0 0 0 20px
+      margin: 0 30px 0 0
+
+  .title-company
+    margin: 0 auto 0 20px
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px)
+  header
+    padding: 30px 0 50px
+
+  .main-img
+    margin: 30px auto 0
+
+  .about-img
+    margin: 30px auto
+    max-width: 400px
+
+  .about-content
+    margin: 30px 0 0
+
+  .about
+    padding: 80px 0
+
+  .about-box
+    width: 33.3%
+    padding: 0 10px
+    br
+      display: none
+
+  .program-box__head
+    padding: 20px 0
+
+  .program-box h3
+    font-size: 20px
+
+  .events-box
+    margin: 0 0 40px
+
+  .partners-box
+    padding: 0 10px
+
+  .main .main-img
+    margin: 30px auto
+
+  .main
+    margin: 0
+
+  footer
+    .box-contacts
+      width: 40%
+      margin: 15px auto 0
+      order: 1
+
+
+  .title-company
+    max-width: none
+    margin: 0
+    width: calc(100% - 50px)
+    padding: 0 0 0 20px
+
+  .box-social
+    width: 20%
+    order: 1
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px)
+  .name-company-description
+    margin: 0 0 30px
+
+  .name-ministry-item
+    max-width: 120px
+
+  h2
+    font-size: 30px
+    margin: 0 auto 25px
+
+  .about-img:after
+    border-width: 15px
+    width: 130px
+    height: 130px
+    right: -20px
+    bottom: -20px
+
+  .program-col
+    width: 100%
+    border: none
+    padding: 0
+    margin: 0 0 30px
+    &:last-child
+      margin: 0
+
+  .program-box h4
+    font-size: 18px
+
+  .program-box-item
+    font-size: 16px
+
+  .time-laps
+    font-size: 20px
+
+  .program-box-item__footer
+    width: 100%
+    padding: 10px 0 20px
+    &:before
+      display: none
+
+  .program-box-item__body
+    width: 100%
+    padding: 0
+
+  .program-box-item__head, .program-col .program-box-item__head, .program-col .program-box-item__body
+    width: 100%
+
+  .program-box-item-line
+    margin: 0 0 20px
+    padding: 0 0 10px
+    border-bottom: 1px solid #ED5338
+    &:last-child
+      border: none
+
+  .decor8
+    left: 10px
+    max-width: 140px
+    top: -20px
+
+  .program-box
+    padding: 30px
+
+  .partners-box
+    width: 33.3%
+    margin: 0 0 30px
+
+  .btn-group
+    margin: 0
+
+  .partner
+    .decor
+      display: none
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 576px)
+  .main-content
+    padding: 0
+    margin: 30px 0 0
+
+  .name-company-description
+    text-align: center
+
+  main
+    .btn
+      margin: 20px auto 0
+
+    &:before
+      display: none
+
+  .main-img
+    width: 280px
+    height: 280px
+    min-width: auto
+    border-width: 20px
+
+    &:after
+      width: 80px
+      height: 80px
+      border-width: 15px
+      bottom: -60px
+      left: 30px
+
+  header
+    .box-contacts
+      margin: 10px auto 0
+      width: 100%
+      justify-content: center
+      text-align: center
+
+  .about-box
+    width: 50%
+
+  .about-content
+    font-size: 16px
+    h3
+      font-size: 20px
+
+  .main .main-img
+    width: 300px
+    height: 300px
+    border-width: 20px
+
+  footer
+    padding: 40px 0
+    .box-contacts
+      width: 100%
+      padding: 0
+      &:before
+        display: none
+
+  .box-social
+    width: 100%
+    margin: 20px 0 0
+
+@media only screen and (max-width: 480px)
+  .speakers-box__img
+    height: 230px
+
+  .about-img:after
+    right: -10px
+
+  .btn-group
+    flex-direction: column
+    align-items: center
+    .btn
+      margin: 0 auto 20px
+      &:last-child
+        margin: 0 auto
+
+  .partner
+    padding: 50px 0
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 420px)
+  .name-ministry-item
+    max-width: 32%
+
+  header
+    padding: 15px 0 40px
+
+  .about-box
+    width: 100%
+
+  .partners-box
+    width: 50%
+
+  .nav-tabs
+    flex-direction: column
+    align-items: center
+    li
+      width: 100%
+
