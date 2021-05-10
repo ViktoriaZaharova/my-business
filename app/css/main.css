@@ -67,10 +67,6 @@ body {
   color: #562212;
   background: #fff; }
 
-html, body {
-  overflow-x: hidden;
-  height: 100%; }
-
 img {
   display: block;
   max-width: 100%;
@@ -1049,7 +1045,7 @@ footer {
     margin: 0 0 30px; }
   .btn-group {
     margin: 0; }
-  .partner .decor {
+  .decor {
     display: none; } }
 
 /* Extra Small Devices, Phones */
@@ -1142,3 +1138,7 @@ footer {
             align-items: center; }
     .nav-tabs li {
       width: 100%; } }
+
+@media only screen and (min-width: 768px) {
+  html, body {
+    overflow-x: hidden; } }
